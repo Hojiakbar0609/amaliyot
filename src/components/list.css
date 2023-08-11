@@ -1,0 +1,36 @@
+img{
+    object-fit: cover;
+    border-radius: 50% ;
+    box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.05)
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+ul li{
+    display: flex;
+    gap: 12px;
+}
+li h3{
+    font-weight: 500;
+}
+li p{
+    color: #64748B;
+}
+li div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: auto;
+}
+.trash-Icon{
+    font-size: 25px;
+    color: rgb(224, 116, 97);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.trash-Icon:hover{
+    color: red;
+}
